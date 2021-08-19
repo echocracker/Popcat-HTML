@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        EJOY POP
+    </title>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+        }
+
+        #full-screen-background-image {
+            z-index: -999;
+            min-height: 100%;
+            min-width: 720px;
+            width: 100%;
+            height: auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        #wrapper {
+            position: relative;
+            width: 960px;
+            min-height: 400px;
+            margin: 100px auto;
+            color: #333;
+        }
+
+        /*h1 {
+            text-shadow: 0 0 0.2em #87F,
+                0 0 0.2em #87F,
+                0 0 0.2em #87F;
+        }
+
+        h2 {
+            text-shadow: 0 0 0.2em #87F,
+                0 0 0.2em #87F,
+                0 0 0.2em #87F;
+        }*/
+
+        #pic {
+            width: 371px;
+            height: 667px;
+        }
+    .style1 {font-size: 36px}
+    body,td,th {
+	color: #FFFFFF;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<Audio>
+    <source src="click.mp3" type="audio/mpeg">
+    <source src="click.ogg" type="audio/ogg"></source>
+</Audio>
+
+
+<body onclick="pop()" onload="changePic()">
+    <p><a href="https://www.facebook.com/indicatcafebkk" target="_blank"><img src="IMG/icon.png" width="150" height="150" border="0"></a></p>
+
+    <img alt="full screen background image" src="IMG/Kevin.jpg" id="full-screen-background-image">
+
+    <div STYLE="position:absolute; top:100px; left:100px; right:100px;">
+        <h1 ALIGN="center"><img src="IMG/logo.png" width="600" height="200"></h1>
+        <h1 ALIGN="center" class="style1" id="point">0</h1>
+        <div ALIGN="center">
+            <div id="pic">
+                <img src="">
+            </div>
+        </div>
+        
+</div>
+
+    <script src="count.js"></script>
+</body>
+
+</html>
